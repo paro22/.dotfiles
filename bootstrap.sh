@@ -12,6 +12,6 @@ if [[ `uname` == 'Darwin' ]]; then
 
   # install some common stuff if it isn't already:
 	echo 'Installing some common software...'
-	brew install mysql wget tmux
+	# brew install mysql wget tmux
 
 fi
