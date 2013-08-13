@@ -1,3 +1,5 @@
+" include pathogen:
+execute pathogen#infect()
 " Make Vim more useful
 set nocompatible
 " Use the OS clipboard by default (on versions compiled with `+clipboard`)
@@ -20,11 +22,11 @@ let mapleader=","
 set binary
 set noeol
 " Centralize backups, swapfiles and undo history
-"set backupdir=~/.vim/backups
-"set directory=~/.vim/swaps
-"if exists("&undodir")
-"	set undodir=~/.vim/undo
-"endif
+set backupdir=~/.vim/backups
+set directory=~/.vim/swaps
+if exists("&undodir")
+	set undodir=~/.vim/undo
+endif
 
 " Respect modeline in files
 set modeline
@@ -39,7 +41,7 @@ syntax on
 " enable 256 color mode
 set t_Co=256
 " set colorscheme
-colorscheme desert
+colorscheme molokai 
 " Highlight current line
 set cursorline
 " Make tabs as wide as two spaces
