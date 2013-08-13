@@ -1,7 +1,9 @@
 My .dotfiles
 =========
 
-Inspired by, thanks to:
+cherry picked from great people all over the web. 
+
+inspired by/thanks to:
 * http://dotfiles.github.io/
 * https://github.com/michaeljsmalley/dotfiles
 * https://github.com/mathiasbynens/dotfiles
