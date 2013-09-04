@@ -1,5 +1,8 @@
 #!/usr/bin/env zsh
 
+# install zsh:
+curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+
 # If we are on OS X, install homebrew
 if [[ `uname` == 'Darwin' ]]; then
   which -s brew
